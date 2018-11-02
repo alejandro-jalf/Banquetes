@@ -1,0 +1,19 @@
+{
+  "name": "banquetes",
+  "version": "1.0.0",
+  "description": "Creacion de una pagina web para una empresa de banquetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro-jalf/Banquetes.git"
+  },
+  "author": "alejandro-jalf <aleflo_1996@outlook.com> (Jose Alejandro Lopez Flores)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alejandro-jalf/Banquetes/issues"
+  },
+  "homepage": "https://github.com/alejandro-jalf/Banquetes#readme"
+}
