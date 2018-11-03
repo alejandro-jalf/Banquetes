@@ -5,17 +5,17 @@
 }
 
 header{
-    background: #201301;
+    background: #ffffff; /*#201301*/
     height: 52px;
     width: 100%;
-    padding-top: 2px;
+    padding-top: 15px;
+    border-bottom: 5px solid #000;
 }
 
 nav{
     float: right;
     width: 500px;
     height: 50px;
-    
 }
 
 li{
@@ -27,13 +27,15 @@ nav ul li a{
     text-align: center;
     text-decoration: none;
     padding: 12px 38px 10px 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
 
 nav ul li a:hover {
-    background: #683d01;
+    /* background: #000000; 
+     color: #fff; */
+    border-bottom: 4px solid rgb(47, 0, 156);
 }
 
 .tituIzq{
@@ -42,7 +44,7 @@ nav ul li a:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     padding-left: 10px;
-    color: #ffffff;
+    color: #000000;
 }
 
 #imgtituizq{
@@ -56,12 +58,8 @@ nav ul li a:hover {
     padding-top: 7px;
 }
 
-body{
-    
-}
-
 section{
-    background-image: url("../images/fondo.jpg");
+    background-image: url("../images/fondo2.jpg");
     background-repeat: repeat-y;
     background-size: 100%;
     padding: 20px;
@@ -106,7 +104,7 @@ section{
 }
 
 .descripcion{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Arial;
     font-size: 44px;
     position: absolute;
@@ -114,6 +112,20 @@ section{
     left: 350px;
     width: 900px;
     font-weight: bold;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
     text-shadow: 3px 3px #000;
+}
+
+footer{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    height: 80px;
+    padding-top: 50px;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+#pie{
+    padding-left: 60px;
 }

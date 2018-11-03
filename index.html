@@ -6,7 +6,6 @@
     <title>Banquetes</title>
     <link rel="shortcut icon" href="./images/principal.png">
     <script src="./script/jquery-3.3.1.min.js"></script>
-    <script src="./script/script.js"></script>
     <link rel="stylesheet" type="text/css" href="./styles/style_principal.css" />
 </head>
 <body>
@@ -20,19 +19,19 @@
         <nav class="Navegador">
             <ul>
                 <li>
-                    <a href="#">
-                        <img src="./images/inicio.png" width="30px" height="30px">
+                    <a id="btn1" href="#" onclick="setClickPestaña(1)" onmouseover="setClickEntra(1)" onmouseout="setClickOut(1)">
+                        <img class="imgnavicon" src="./images/inicio.png" width="30px" height="30px">
                         Inicio</a>
                 </li>
                 <li>
                     
-                    <a href="#">
-                            <img src="./images/cotizar.png" width="30px" height="30px">
+                    <a id="btn2" href="./paneles/cotizar.html" onclick="setClickPestaña(2)" onmouseover="setClickEntra(2)" onmouseout="setClickOut(2)">
+                            <img class="imgnavicon" src="./images/cotizar.png" width="30px" height="30px">
                         Cotizar</a>
                 </li>
                 <li>
-                    <a id="Sesion" href="#">
-                        <img src="./images/sesion.png" width="30px" height="30px">
+                    <a id="btn3" href="./paneles/login.html" onclick="setClickPestaña(3)" onmouseover="setClickEntra(3)" onmouseout="setClickOut(3)">
+                        <img class="imgnavicon" src="./images/sesion.png" width="30px" height="30px">
                         Iniciar Sesion
                     </a>
                 </li>
@@ -97,7 +96,8 @@
         </div>
     </section>
     <footer>
-        banquetes@outlook.com   
+        <div id="pie">banquetes@outlook.com   </div>
     </footer>
+    <script src="./script/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,79 @@
+
+ #supIzq{ 
+    grid-area: superior;
+    font-size: 30px;
+}
+#centroIzq{
+    grid-area: centro;
+    background-image: url("../images/fondomenu.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+#infeIzq{
+    grid-area: inferior;
+    background-image: url("../images/arreglos.jpg");
+    background-size: 100% 100%;
+    border: 1px solid rgb(255, 195, 84);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000;
+}
+.Der1{grid-area: derecho;}
+
+.grid-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-areas:
+      'superior  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'centro  derecho derecho derecho derecho derecho derecho'
+      'inferior  derecho derecho derecho derecho derecho derecho';
+    grid-gap: 10px;
+    padding: 10px;
+}
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.794);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#interior{
+    height: 800px;
+}
+
+#content_lista{
+    height: 100%;
+    /* background: rgb(253, 146, 146); */
+    padding: 5px;
+    padding-top: 2px;
+}
+
+.list-num{
+    /* background: rgb(124, 251, 66); */
+    height: 50px;
+    padding-top: 15px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    background: #fff;
+    border: 1px solid rgb(206, 203, 203);
+}
+
+.list-num:hover{
+    background: #000;
+    color: beige;
+}
